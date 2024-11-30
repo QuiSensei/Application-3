@@ -38,7 +38,7 @@ lamp.load("./Models/Lamp/scene.gltf", (gltf) => {
 });
 
 const trashCan = new GLTFLoader();
-trashCan.load("./Models/Trash_can/scene.gltf", (gltf) => {
+trashCan.load("./Models/Trash-can/scene.gltf", (gltf) => {
   const can = gltf.scene;
 
   can.position.set(7.5, 0.9, -8.8);
