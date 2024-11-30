@@ -61,7 +61,7 @@ hedge.load("./Models/Hedge/scene.gltf", (gltf) => {
 
 const foxLoader = new GLTFLoader();
 let mixer = null; // Declare mixer globally
-foxLoader.load("./models/Fox/glTF/Fox.gltf", (gltf) => {
+foxLoader.load("./Models/Fox/glTF/Fox.gltf", (gltf) => {
   gltf.scene.traverse((node) => {
     if (node.isMesh) {
       node.castShadow = true; // Cast shadows
