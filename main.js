@@ -41,9 +41,10 @@ const trashCan = new GLTFLoader();
 trashCan.load("./Models/Trash can/scene.gltf", (gltf) => {
   const can = gltf.scene;
 
-  can.position.set(7.5, 0, -8.8);
+  can.position.set(7.5, 0.9, -8.8);
 
-  can.scale.set(2, 2, 2);
+  can.scale.set(2.5, 2.5, 2.5);
+
 
   scene.add(can);
 });
