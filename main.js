@@ -45,7 +45,6 @@ trashCan.load("./Models/Trash_can/scene.gltf", (gltf) => {
 
   can.scale.set(2.5, 2.5, 2.5);
 
-
   scene.add(can);
 });
 
