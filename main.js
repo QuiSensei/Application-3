@@ -6,7 +6,7 @@ import * as CANNON from "https://cdn.jsdelivr.net/npm/cannon-es@0.20.0/dist/cann
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 
 const bench = new GLTFLoader();
-bench.load("./Models/Bench1/scene.gltf", (gltf) => {
+bench.load("./Models/Bench/scene.gltf", (gltf) => {
   const bench = gltf.scene;
 
   // Set position
@@ -272,7 +272,7 @@ function init() {
     dayAndNightLight.shadow.camera
   );
   directionalLightCameraHelper.visible = true;
-  scene.add(directionalLightCameraHelper);
+  // scene.add(directionalLightCameraHelper);
 
   createStars();
 
